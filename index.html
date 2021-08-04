@@ -523,37 +523,83 @@
             <h1 style="text-align: center;">Meet our Team</h1> 
             <br>
 
-                <div class="card">
-                  <img src="head.jpg" alt="Avatar" style="width:100%">
-                  <div class="container">
-                    <h4 style="color: black;"><b>Justin</b></h4> 
-                    <p style="color: black;">My name is Justin, from sunny California. My passion to help the world while building a sustainable business has led me to dedicate my time to create a way to give back to the people. With experience in creating 3 functioning businesses, I have transitioned into the cryptocurrency space to make it easy for everyone to invest and earn passive income.</p> 
+
+            <div class="row">
+            
+               <div  class="card"> <!-- Here I create a New Div with class name card -->
+                  <div class="card_img"> <!-- Here I create a New Div for image with class name card_img -->
+                      <img src="justin.jpg" alt="user-image">
                   </div>
-                </div>
+                  <div class="card_info"> <!-- Here I create a New Div for user info with class name card_info -->
+                     <a href="https://www.linkedin.com/in/justin-loya-35aba4128"><h2>Justin L</h2>
+                      <h6>Founder</h6> </a> 
+                      
+                      <p>My name is Justin, from sunny California. My passion to help the world while building a sustainable business has led me to dedicate my time to create a way to give back to the people. With experience in creating 3 functioning businesses, I have transitioned into the cryptocurrency space to make it easy for everyone to invest and earn passive income.</p>
+                      <br><br>
+                   <a href="https://www.linkedin.com/in/justin-loya-35aba4128">  <i style="color: grey;" class="fab fa-linkedin"></i></a> 
+                  </div>
+
+              </div>
+
+              &nbsp;&nbsp;&nbsp;
+   
+   
+              <div class="card" > <!-- Here I create a New Div with class name card -->
+               <div class="card_img"> <!-- Here I create a New Div for image with class name card_img -->
+                   <img src="blackshade.jpg" alt="user-image">
+               </div>
+               <div class="card_info"> <!-- Here I create a New Div for user info with class name card_info -->
+                   <h2>Black Shades</h2>
+                   <h6>NFT Designer</h6>
+                   <p>
+                     Hey there! BlackShades here! I am a Family man first, and crypto enthusiast second. I've always been a collector outside of crypto, now that you can collect digital Trading cards, I design them myself!                  </p>
+                     <br><br><br><br><br>
+                     <a href="https://twitter.com/realblackshades?s=11">  <i style="color: grey;" class="fab fa-twitter"></i></a> 
+
+
+               </div>
+           </div>
+   
+            </div>
+
+
             </div>
         </div>
     </section>
     <style>
       .card {
-        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-        transition: 0.3s;
-        width: 40%;
-      }
-      @media (max-width: 1000px) {
+         margin: 0 auto;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    max-width: 350px;
+    text-align: center;
+    background-color: black;
+    margin-top: 60px;
+}
 
-            .card {
-               width: 100%;
-            }
 
-      }
-      
-      .card:hover {
-        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-      }
-      
-      .container {
-        padding: 2px 16px;
-      }
+.card_img {
+    width: 120px;
+    height: 120px;
+    overflow: hidden;
+    border-radius: 100%;
+    margin: -60px auto 0;
+}
+.card_img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.card_info {
+    padding-bottom: 20px;
+}
+a {
+  text-decoration: none;
+  color: red;
+}
+a:hover{
+  color: black;
+}
       </style>
 
 

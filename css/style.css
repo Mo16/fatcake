@@ -29,6 +29,7 @@ Table of Content:
 /*font Variables*/
 /*Color Variables*/
 /* Button Style */
+
 @import url(../css/bootstrap.min.css);
 @import url("https://use.fontawesome.com/releases/v5.5.0/css/all.css");
 @import url(../css/font-awesome.min.css);
@@ -42,16 +43,21 @@ Table of Content:
 @import url(../vendors/meanMenu/meanmenu.css);
 @import url("https://fonts.googleapis.com/css2?family=Hind+Guntur:wght@300;400;500;600;700&display=swap");
 /* color: #0d2841; */
-/* #E91E63 -> grün */
+/* #593b81 -> grün */
+@font-face {
+  font-family: "adventure";
+  src: url("../fonts/adventure.ttf");
+}
+
 .theme_btn {
   color: black;
   text-align: center;
-  font: 600 16px/1 "Hind Guntur", sans-serif;
+  font: 600 16px/1 "adventure", sans-serif;
   display: inline-block;
   padding: 12px 25px 8px 25px;
-  background: #E91E63 !important;
+  background: #593b81 !important;
   text-transform: uppercase;
-  border: 2px solid #E91E63 !important;
+  border: 2px solid #593b81 !important;
   cursor: pointer;
   transition: all 300ms linear 0s;
 }
@@ -78,9 +84,9 @@ Table of Content:
   text-align: center;
 }
 .b-btn:hover, .b-btn:focus {
-  background: #E91E63;
+  background: #593b81;
   color: #e5f4ff;
-  border: 2px solid #E91E63;
+  border: 2px solid #593b81;
 }
 
 .btn_2 {
@@ -88,9 +94,9 @@ Table of Content:
   color: #06092c;
 }
 .btn_2:hover, .btn_2:focus {
-  background: #E91E63;
+  background: #593b81;
   color: #06092c;
-  border: 2px solid #E91E63;
+  border: 2px solid #593b81;
 }
 
 /* Amination */
@@ -106,16 +112,16 @@ Table of Content:
 }
 .title h2 {
   color: #e5f4ff;
-  font: 700 36px/50px "Hind Guntur", sans-serif;
+  font: 700 36px/50px "adventure", sans-serif;
   padding-bottom: 15px;
 }
 .title h2 span {
-  /* color: #E91E63; */
-  color: #E91E63 !important;
+  /* color: #593b81; */
+  color: #593b81 !important;
 }
 .title p {
   color: #e5f4ff;
-  font: 400 16px/28px "Hind Guntur", sans-serif;
+  font: 400 16px/28px "adventure", sans-serif;
   margin: 0 auto;
 }
 
@@ -126,7 +132,7 @@ Table of Content:
   height: 50px;
   width: 50px;
   cursor: pointer;
-  background: #E91E63;
+  background: #593b81;
   border: 0;
   box-shadow: none;
   z-index: 999;
@@ -165,20 +171,20 @@ Table of Content:
 /*----------------------------------------------------*/
 /*Prefix Styles*/
 body {
-  font-family: "Hind Guntur", sans-serif;
+  font-family: "adventure", sans-serif;
   /*Section Fix*/
   /*Ancore*/
 }
 body h1, body h2, body h3, body h4, body h5, body h6 {
   color: #e5f4ff;
-  font-family: "Hind Guntur", sans-serif;
+  font-family: "adventure", sans-serif;
   margin: 0;
   font-weight: 700;
 }
 body p {
   color: #e5f4ff;
   margin: 0;
-  font: 400 16px/28px "Hind Guntur", sans-serif;
+  font: 400 16px/28px "adventure", sans-serif;
 }
 body ul {
   margin: 0;
@@ -452,12 +458,12 @@ body a:focus, body a:hover, body .btn:focus, body .btn:hover, body button:focus,
 }
 .header_area .main-menu nav li a {
   color: #e5f4ff;
-  font: 600 14px/1 "Hind Guntur", sans-serif;
+  font: 600 14px/1 "adventure", sans-serif;
   display: block;
   padding: 26px 0 14px 0;
 }
 .header_area .main-menu nav li:hover > a {
-  color: #E91E63;
+  color: #593b81;
 }
 .header_area .main-menu nav li .submenu {
   position: absolute;
@@ -516,15 +522,15 @@ body a:focus, body a:hover, body .btn:focus, body .btn:hover, body button:focus,
 }
 .banner_area .banner_content h1 {
   color: #e5f4ff;
-  font: 700 60px/70px "Hind Guntur", sans-serif;
+  font: 700 60px/70px "adventure", sans-serif;
   margin-bottom: 30px;
 }
 .banner_area .banner_content h1 span {
-  color: #E91E63;
+  color: #593b81;
 }
 .banner_area .banner_content p {
   color: #e5f4ff;
-  font: 400 18px/28px "Hind Guntur", sans-serif;
+  font: 400 18px/28px "adventure", sans-serif;
   margin-bottom: 35px;
 }
 .banner_area .banner_content .btn_list li {
@@ -591,7 +597,7 @@ body a:focus, body a:hover, body .btn:focus, body .btn:hover, body button:focus,
 }
 .our_mission_area .mission_text h5 {
   color: #19c3d9;
-  font: 600 22px/50px "Hind Guntur", sans-serif;
+  font: 600 22px/50px "adventure", sans-serif;
   margin-bottom: 10px;
 }
 .our_mission_area .mt_1::before {
@@ -660,35 +666,35 @@ body a:focus, body a:hover, body .btn:focus, body .btn:hover, body button:focus,
 }
 .start_mining_area .mining_text h3 {
   color: #e5f4ff;
-  font: 500 35px/28px "Hind Guntur", sans-serif;
+  font: 500 35px/28px "adventure", sans-serif;
   margin-bottom: 10px;
 }
 .start_mining_area .mining_text h3 span {
   float: right;
-  font: 500 18px/35px "Hind Guntur", sans-serif;
+  font: 500 18px/35px "adventure", sans-serif;
 }
 .start_mining_area .mining_text span:nth-child(2) {
   color: #e5f4ff;
-  font: 500 16px/28px "Hind Guntur", sans-serif;
+  font: 500 16px/28px "adventure", sans-serif;
   display: inline-block;
   margin-right: 30px;
   margin-bottom: 60px;
 }
 .start_mining_area .mining_text span:nth-child(3) {
-  color: #E91E63;
-  font: 400 14px/28px "Hind Guntur", sans-serif;
+  color: #593b81;
+  font: 400 14px/28px "adventure", sans-serif;
   margin-bottom: 60px;
 }
 .start_mining_area .mining_text a {
   color: #e5f4ff;
-  font: 700 16px/26px "Hind Guntur", sans-serif;
+  font: 700 16px/26px "adventure", sans-serif;
   display: block;
 }
 .start_mining_area .mining_text a i {
   font-size: 12px;
 }
 .start_mining_area .mining_text a:hover, .start_mining_area .mining_text a:focus {
-  color: #E91E63;
+  color: #593b81;
 }
 .start_mining_area .mt_3::before {
   background: url(../images/start/icon2.png) no-repeat;
@@ -757,7 +763,7 @@ body a:focus, body a:hover, body .btn:focus, body .btn:hover, body button:focus,
   color: #fff;
 }
 .easily_acces .btn_list li .brand_list a:hover {
-  color: #E91E63;
+  color: #593b81;
 }
 
 .ma_2 {
@@ -826,7 +832,7 @@ body a:focus, body a:hover, body .btn:focus, body .btn:hover, body button:focus,
 }
 .popular_feature_area .feature_box h5 {
   color: #19c3d9;
-  font: 500 22px/28px "Hind Guntur", sans-serif;
+  font: 500 22px/28px "adventure", sans-serif;
   margin-bottom: 15px;
 }
 .popular_feature_area .owl-dots {
@@ -843,7 +849,7 @@ body a:focus, body a:hover, body .btn:focus, body .btn:hover, body button:focus,
 }
 .popular_feature_area .owl-dots .owl-dot.active {
   transform: scaleY(1.3);
-  background: #E91E63;
+  background: #593b81;
 }
 
 .our_roadmap_area {
@@ -896,20 +902,20 @@ body a:focus, body a:hover, body .btn:focus, body .btn:hover, body button:focus,
 }
 .our_roadmap_area .road_text h6 {
   color: #e5f4ff;
-  font: 700 18px/28px "Hind Guntur", sans-serif;
+  font: 700 18px/28px "adventure", sans-serif;
   margin-bottom: 5px;
 }
 .our_roadmap_area .road_text p {
-  font: 500 14px/26px "Hind Guntur", sans-serif;
+  font: 500 14px/26px "adventure", sans-serif;
 }
 .our_roadmap_area .road_text .border_line {
   border: 1px solid rgba(242, 249, 255, 0.2);
 }
 .our_roadmap_area .rac::before {
-  background: #E91E63;
+  background: #593b81;
 }
 .our_roadmap_area .rac h6 {
-  color: #E91E63;
+  color: #593b81;
 }
 .our_roadmap_area .rt_2 {
   padding-right: 0;
@@ -941,10 +947,10 @@ body a:focus, body a:hover, body .btn:focus, body .btn:hover, body button:focus,
   color: #06092c;
 }
 .ra_2 .rac::before {
-  background: #E91E63;
+  background: #593b81;
 }
 .ra_2 .rac h6 {
-  color: #E91E63;
+  color: #593b81;
 }
 .ra_2 .row_border {
   padding-top: 109px;
@@ -957,10 +963,10 @@ body a:focus, body a:hover, body .btn:focus, body .btn:hover, body button:focus,
   color: #06092c;
 }
 .ra_2 .row_border .rac::before {
-  background: #E91E63;
+  background: #593b81;
 }
 .ra_2 .row_border .rac h6 {
-  color: #E91E63;
+  color: #593b81;
 }
 
 /*----------------------------------------------------*/
@@ -1014,11 +1020,11 @@ body a:focus, body a:hover, body .btn:focus, body .btn:hover, body button:focus,
 }
 .what_say_area .client_box .client_img h6 {
   color: #e5f4ff;
-  font: 700 16px/26px "Hind Guntur", sans-serif;
+  font: 700 16px/26px "adventure", sans-serif;
 }
 .what_say_area .client_box .client_img a {
   color: #e5f4ff;
-  font: 400 16px/26px "Hind Guntur", sans-serif;
+  font: 400 16px/26px "adventure", sans-serif;
   display: inline-block;
 }
 .what_say_area .client_box .client_text {
@@ -1031,7 +1037,7 @@ body a:focus, body a:hover, body .btn:focus, body .btn:hover, body button:focus,
 }
 .what_say_area .client_box .client_text p {
   color: #06092c;
-  font: 600 16px/28px "Hind Guntur", sans-serif;
+  font: 600 16px/28px "adventure", sans-serif;
 }
 
 /*----------------------------------------------------*/
@@ -1053,12 +1059,12 @@ body a:focus, body a:hover, body .btn:focus, body .btn:hover, body button:focus,
 }
 .team_area .img_box h5 {
   color: #e5f4ff;
-  font: 700 20px/28px "Hind Guntur", sans-serif;
+  font: 700 20px/28px "adventure", sans-serif;
   margin-top: 40px;
 }
 .team_area .img_box span {
   color: #697080;
-  font: 400 20px/28px "Hind Guntur", sans-serif;
+  font: 400 20px/28px "adventure", sans-serif;
   margin-top: 10px;
 }
 .team_area .ib_2 {
@@ -1102,7 +1108,7 @@ body a:focus, body a:hover, body .btn:focus, body .btn:hover, body button:focus,
   color: #e5f4ff;
   background-color: transparent;
   border: 0;
-  border-bottom: 2px solid #E91E63;
+  border-bottom: 2px solid #593b81;
 }
 .faq_area .nav-tabs .nav-link {
   border: 0;
@@ -1121,7 +1127,7 @@ body a:focus, body a:hover, body .btn:focus, body .btn:hover, body button:focus,
 }
 .faq_area .faq_desc h5 {
   color: #e5f4ff;
-  font: 600 20px/28px "Hind Guntur", sans-serif;
+  font: 600 20px/28px "adventure", sans-serif;
   margin-bottom: 10px;
 }
 .faq_area .faq_desc p {
@@ -1207,14 +1213,14 @@ body a:focus, body a:hover, body .btn:focus, body .btn:hover, body button:focus,
   top: -6px;
 }
 .footer_area .footer_widget .fot_list li a::before:hover {
-  border: 1px dashed #E91E63;
+  border: 1px dashed #593b81;
 }
 .footer_area .footer_widget .fot_list li a:hover {
-  color: #E91E63;
+  color: #593b81;
 }
 .footer_area .footer_widget h5 {
   color: #e5f4ff;
-  font: 700 25px/28px "Hind Guntur", sans-serif;
+  font: 700 25px/28px "adventure", sans-serif;
   margin-bottom: 40px;
   margin-top: 23px;
 }
@@ -1241,7 +1247,7 @@ body a:focus, body a:hover, body .btn:focus, body .btn:hover, body button:focus,
 }
 .footer_area .footer_widget .cta_list li a {
   color: #e5f4ff;
-  font: 600 16px/28px "Hind Guntur", sans-serif;
+  font: 600 16px/28px "adventure", sans-serif;
   margin-bottom: 20px;
   display: inline-block;
 }
@@ -1250,7 +1256,7 @@ body a:focus, body a:hover, body .btn:focus, body .btn:hover, body button:focus,
   font-size: 12px;
 }
 .footer_area .footer_widget .cta_list li a:hover {
-  color: #E91E63;
+  color: #593b81;
 }
 .footer_area .copy_right {
   text-align: center;
@@ -1260,7 +1266,7 @@ body a:focus, body a:hover, body .btn:focus, body .btn:hover, body button:focus,
 }
 .footer_area .copy_right a {
   color: #e5f4ff;
-  font: 400 16px/28px "Hind Guntur", sans-serif;
+  font: 400 16px/28px "adventure", sans-serif;
 }
 
 .fa_2 {
@@ -1325,7 +1331,7 @@ body a:focus, body a:hover, body .btn:focus, body .btn:hover, body button:focus,
   }
 
   .title h2 {
-    font: 700 30px/50px "Hind Guntur", sans-serif;
+    font: 700 30px/50px "adventure", sans-serif;
   }
 
   .our_mission_area .mission_text {
